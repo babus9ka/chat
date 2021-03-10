@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+header{
+    height: 75px;
+    display: flex;
+    background: rgba(193, 218, 243, 0.877);
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+
+ li{
+     text-decoration: none;
+     list-style: none;
+     margin: 20px;
+     font-size: 32px;
+     font-family: "Arial";
+ }
+ .offer{
+    display: flex;
+    justify-content: center;
+ }
+a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.container{
+    width: 1140px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+main{
+    margin-top: 50px;
+
+    flex-wrap: wrap-reverse;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(231, 243, 255, 0.582);
+    margin: 20px;
+}.box h2 {
+    margin-bottom: 10px;
+    font-family: "Arial";
+}
+.box p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000b4;
+}
+input{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: rgba(231, 243, 255, 0.582);
+}
+form button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background: rgb(175, 210, 245);
+}
+.owner {
+    justify-content: flex-end;
+    display:flex;
+    margin-bottom: 35px;
+}
+.not_owner {
+    background-color: limegreen;
+    padding: 3px;
+}
+.owner_main{
+    background-color: #e3e3e3;
+    padding: 3px;
+}
+.body_message{
+    border-radius: 10px;
+    padding-left: 5px;
+    max-width: 300px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.chat{
+    background: #fff;
+    overflow: auto;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+}
+.room {
+    margin-left: 50px;
+}
+.message_box{
+    display:flex;
+    margin-bottom: 35px;
+}
